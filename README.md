@@ -1,5 +1,6 @@
 # React-formik
 
+its a full responsive form control (Formik) that i created with react
 
 use npm i for install dependency
 
