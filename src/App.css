@@ -1,0 +1,116 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.form-container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  width: 80%;
+  border-radius: 15px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.form-container>h1 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.form-container>h1:after {
+  content: '';
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background-color: #4070f4;
+}
+
+.text-field {
+  width: 100%;
+}
+
+.btn {
+  height: 50px;
+}
+
+.typo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  padding: 28px 10px;
+  color: rgba(0, 0, 0, 0.76);
+  overflow: hidden;
+}
+
+.typo:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.034);
+}
+
+.btn-wapper {
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stepper {
+  width: 80%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.succsess-h3 {
+  color: #2e7d32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.identity{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 60%;
+}
+
+@media screen and (max-width:500px) {
+  .btn-container , .btn-wapper{
+    width: 100%;
+  }
+  .identity{
+    width: 100%;
+  }
+}
